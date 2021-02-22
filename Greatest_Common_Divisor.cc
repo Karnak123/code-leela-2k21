@@ -1,3 +1,6 @@
+// -*- coding: utf-8 -*-
+// Author : Sagnik Mazumder
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -9,8 +12,8 @@ int main(){
 	while(t--)
 	{
 		int n;
-        cin>>n;
-        cout<<n/3<<endl;
+        	cin>>n;
+        	cout<<n/3<<endl;
 	}
 	return(0);
 }
