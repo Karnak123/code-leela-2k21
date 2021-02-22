@@ -1,3 +1,6 @@
+// -*- coding: utf-8 -*-
+// Author : Arpan Mahanty
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
