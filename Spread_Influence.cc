@@ -1,3 +1,6 @@
+// -*- coding: utf-8 -*-
+// Author : Sagnik Mazumder
+
 #include<bits/stdc++.h>
 #include<time.h>
 using namespace std;
