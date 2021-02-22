@@ -53,6 +53,8 @@ ll solve(char c) {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
     int m;
     cin>>n>>m;
     for (int i = 0; i < m; i++) {
@@ -76,5 +78,5 @@ int main() {
     }
     cout<<f<<endl;
     
-    return 0;
+    return(0);
 }
