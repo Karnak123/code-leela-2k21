@@ -5,6 +5,8 @@ using namespace std;
 #define ld long double
 
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 	int t;
 	cin>>t;
 
