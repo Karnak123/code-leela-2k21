@@ -1,3 +1,6 @@
+// -*- coding: utf-8 -*-
+// Author : Apratim Sarkar
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
