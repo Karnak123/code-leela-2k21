@@ -54,11 +54,12 @@ ll solve(char c) {
 
 int main() {
     int m;
-    scanf("%d %d", &n, &m);
+    cin>>n>>m;
     for (int i = 0; i < m; i++) {
         int u, v;
         char c;
-        scanf("%d %d %c", &u, &v, &c);
+        cin>>u>>v>>c;
+        
         --u, --v;
         G[u].emplace_back(v, c);
         G[v].emplace_back(u, c);
@@ -70,11 +71,10 @@ int main() {
     if (g < f) f = g;
 
     if (f > n) {
-        printf("-1\n");
+        cout<<-1<<endl;
         return 0;
     }
-
-    printf("%d\n", f);
-
+    cout<<f<<endl;
+    
     return 0;
 }
